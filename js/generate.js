@@ -1,4 +1,4 @@
-// public/js/generate.js
+// js/generate.js
 
 function generateLottoNumbers() {
     const numbers = new Set();
