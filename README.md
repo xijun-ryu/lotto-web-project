@@ -1,1 +1,1 @@
-"# Lotto 프로젝트 시작" 
+"# Lotto Project Start" 
