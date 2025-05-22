@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>로또 번호 출현 빈도 분석</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+</head>
+<body>
+  <h1>📊 로또 번호 출현 빈도 분석</h1>
+  <div id="summary" style="margin: 20px 0; font-size: 16px;"></div>
+  <div style="max-width: 700px; margin: auto;">
+    <canvas id="freqChart" height="280"></canvas>
+  </div>
+  
+  <div id="summary" style="max-width: 700px; margin: 30px auto; font-size: 16px;"></div>
+
+  <h2>📐 구간별 분포 (도넛 차트)</h2>
+  <div style="max-width: 380px; margin: 30px auto;">
+    <canvas id="rangeChart"></canvas>
+  </div>
+
+  <script src="js/analyze.js"></script>
+  <div style="text-align: center; margin: 40px 0;">
+    <a href="index.html" class="nav-button">🔙 메인으로</a>
+    <a href="history.html" class="nav-button">📅 회차 조회</a>
+  </div>
+</body>
+</html>

@@ -53,3 +53,19 @@ body {
   .nav-button:hover {
     background-color: #004d40;
   }
+
+  .nav-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #004d40;
+  }
